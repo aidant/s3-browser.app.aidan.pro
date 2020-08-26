@@ -1,0 +1,27 @@
+body {
+  margin: 0rem;
+}
+
+#application {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100vw;
+  height: 100vh;
+}
+
+ul {
+  margin: 0rem;
+  padding: 0rem;
+}
+
+ul > li {
+  list-style-type: none;
+  padding: 0.25rem;
+}
+
+ul > li > a {
+  color: black;
+  font-family: monospace;
+}
