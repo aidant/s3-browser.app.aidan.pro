@@ -9,11 +9,13 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
     <link rel="stylesheet" href="style.css" />
     <script type="module" src="components/s3-browser.js"></script>
+    <script type="module" src="components/input-query.js"></script>
     <script type="module" src="index.js"></script>
   </head>
 
   <body>
     <div id="application">
+      <input is="input-query" name="bucket" type="url"></input>
       <s3-browser></s3-browser>
     </div>
   </body>

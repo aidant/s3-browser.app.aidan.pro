@@ -2,6 +2,7 @@
   :root {
     color: white;
     background-color: black;
+    border-color: white;
   }
 }
 
@@ -22,6 +23,20 @@ body {
 
   width: 100vw;
   height: 100vh;
+}
+
+input[is="input-query"] {
+  position: absolute;
+  top: 0rem;
+  margin: 1rem 0rem;
+  padding: 0.5rem;
+  font-size: inherit;
+  font-family: inherit;
+  width: 70%;
+  color: inherit;
+  background-color: inherit;
+  border-style: solid;
+  border-color: inherit;
 }
 
 s3-browser {
