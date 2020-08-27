@@ -1,3 +1,15 @@
+@media (prefers-color-scheme: dark) {
+  :root {
+    color: white;
+    background-color: black;
+  }
+}
+
+:root {
+  font-family: monospace;
+  font-size: 1.25rem;
+}
+
 body {
   margin: 0rem;
 }
@@ -6,22 +18,22 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 
   width: 100vw;
   height: 100vh;
 }
 
-ul {
-  margin: 0rem;
-  padding: 0rem;
+s3-browser {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 0.5rem;
 }
 
-ul > li {
-  list-style-type: none;
-  padding: 0.25rem;
+s3-browser > a {
+  color: inherit;
 }
 
-ul > li > a {
-  color: black;
-  font-family: monospace;
+s3-browser > span {
+  text-align: right;
 }
